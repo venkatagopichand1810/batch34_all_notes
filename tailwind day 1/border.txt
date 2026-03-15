@@ -1,0 +1,22 @@
+setting the border
+
+border .........border-width: 1px 
+border-0 ...border-width: 0
+border-2 ...2px
+border-4 =? 4px
+
+
+border-green-400
+border-blue-500
+
+border-solid
+border-dashed
+border-dotted 
+
+rounded-sm
+rounded-none 
+rounded-md 
+rounded-lg 
+rounded-xl 
+rounded-2xl 
+

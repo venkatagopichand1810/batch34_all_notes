@@ -1,0 +1,42 @@
+what is HTML 
+what is diff html4 vs html5
+what is the imp of doctype 
+what is diff b/w inline and block elements 
+list the inline elements 
+list the block elements 
+diff b/w semantic elements and non-semantic elements
+div b/w div vs span
+diff way to improve seo in html 
+what is the imp of meta tags in html
+how to display pdf in html 
+what are media elements
+what are diff input types in html5
+what is datalist 
+what is select input
+diff datalist and select
+diff b.w name, id and value in input field 
+what is diff readonly and disabled in forms
+how to create the tables 
+diff b/w rowspan and colspan
+what are diff lists in html 
+what is embed, object and iframe 
+waht is picutre tag in html
+what is target = _blank 
+name the semantic elements 
+methods to add forms
+diff b/w radio and checkbox
+what are diff html form elements
+what are diff html input elements
+what are diff html input attributes 
+how to create login form in html
+how to validate the forms in html
+diff b/w ordered list and unordered list
+how to create tooltip in html
+is html5 is casesensitive
+name few basic tags of html 
+how to navigate one page to another page
+how to embed one html page into another html page 
+how to create calender in html
+how to upload image in html html 
+svg and canvas
+local storage, session storage 

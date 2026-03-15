@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <style>
+        .flex-container {
+            display: flex;
+            border: 3px solid black;
+            flex-flow: row wrap;
+            flex-direction: row;
+            flex-direction: column;
+            /* justify-content: end;
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: space-evenly; */
+            /* height: 300px;
+            align-items: center;
+            align-items: start;
+            align-items: end;
+            align-items: flex-start;
+            align-items: flex-end; */
+
+        }
+
+        .flex-item {
+            background-color: orange;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .flex-item:nth-child(1){
+            order: 3
+        }
+
+          .flex-item:nth-child(2){
+            order: 1
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <div class="flex-container">
+            <div class="flex-item">ONE</div>
+            <div class="flex-item">TWO</div>
+            <div class="flex-item">THREE</div>
+            <!-- <div class="flex-item">four</div>
+            <div class="flex-item">five</div>
+            <div class="flex-item">six</div> -->
+            
+        </div>
+
+</body>
+
+</html>

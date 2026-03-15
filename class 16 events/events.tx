@@ -1,0 +1,36 @@
+mouse events
+
+-> click -- user click an element
+-> dblclick -> 
+mousedown
+mousemove
+mouseup
+mouseout
+mouseenter
+mouseleave 
+mouseover
+
+keywords events
+
+keydown
+keyup
+keypress
+
+
+
+form inputs
+submit
+focus 
+reset 
+
+
+clipboard events
+copy 
+cut
+paste
+
+
+media events
+play
+pause
+volumechange

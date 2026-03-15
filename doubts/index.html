@@ -1,0 +1,42 @@
+<script>
+    // function loginUser(username) {
+    //     console.log("1) User logged in:", username)
+    // }
+
+    // function showWelcome() {
+    //     console.log("2) welcome to flipkart page")
+    // }
+
+    // showWelcome();
+    // loginUser("venkat");
+
+
+    function loginUser(username, callback) {
+        console.log("1) User logged in:", username)
+
+        // after login is done, then show the welcome message
+        callback()
+    }
+
+    function showWelcome() {
+        console.log("2) welcome to flipkart page")
+    }
+
+
+    loginUser("venkat", showWelcome);
+
+
+    // callback hell
+
+    function orderBiryani(callback){
+        console.log("ordered biryani")
+        setTimeout(callback, 3000)
+    }
+
+
+    orderBiryani(function() {
+        prepstarted()
+    })
+
+
+</script>

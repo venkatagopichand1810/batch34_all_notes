@@ -1,0 +1,10 @@
+useEffect is the react hook to handle the side effects in the functional component
+
+api calls
+fetch the data 
+setTimout, setIntervel 
+DOM manipulation 
+local storage
+
+
+1) useEffect will render every time based on the user interaction 

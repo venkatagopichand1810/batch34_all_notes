@@ -1,0 +1,88 @@
+
+
+// book a ticket
+
+// searching the train function
+function searchTrains(from, to, callback){
+    setTimeout(() => {
+        callback(["Train-101", "Train-201"])
+    }, 1000)
+}
+
+// select train function 
+function selectTrain(train, callback){
+setTimeout(() => {
+        callback(train)
+    }, 1000)
+}
+
+// 3. check the seat availablity
+
+function checkSeatAvailability(train, callback){
+setTimeout(() => {
+        callback({train, seat: 25})
+    }, 1000)
+}
+
+
+//4. Book the seat
+
+function bookSeat(seatInfo, callback){
+setTimeout(() => {
+        callback({ticketId: "TCK123", seatInfo})
+    }, 1000)
+}
+
+
+
+//5. make payment
+function makePayment(ticket, callback) {
+setTimeout(() => {
+        callback({status: "PAID", ticket})
+    }, 1000)
+}
+
+
+//6. send sms
+function sendSMS(payment, callback) {
+setTimeout(() => {
+        callback({sms: "Confirmation sms sent", payment})
+    }, 1000)
+}
+
+// 7) Generate ticket
+
+function generateInvoice(smsStatus, callback){
+setTimeout(() => {
+        callback({invoiceID: "INv123", smsStatus})
+    }, 1000)
+}
+
+console.log("starting the railway ticket booking");
+
+searchTrains("chennai", "mumbai", function(trains) {
+    console.log("1. Trains found", trains)
+    selectTrain(trains[0], function(selectedTrain){
+        console.log("2. Train selected", selectedTrain)
+        checkSeatAvailability(selectedTrain, function(availablity) {
+            console.log("3. Seat availablity", availablity)
+            bookSeat(availablity, function(ticket){
+                  console.log("4. Seat Booked", ticket)
+                  makePayment(ticket, function(paymentStatus){
+                      console.log("5. Payment Done", paymentStatus)
+                        sendSMS(paymentStatus, function(smsStatus){
+                            console.log("6. SMS sent", smsStatus);
+                            generateInvoice(smsStatus, function(invoice) {
+                                console.log("7. Invoice generated", invoice)
+
+                                // finally
+                                console.log("Congrats, Booking is completed successfully")
+                            })
+                        })
+                  })
+                 
+            })
+        })
+
+    }) 
+})

@@ -1,0 +1,39 @@
+dotenv contains all the environmental variables....
+
+mongodb url 
+port number 
+secret key 
+payment gatway id
+
+
+
+JWT -> JSON WEB TOKEN..when we wanted to do data transmission from the client and the server
+
+authentication and authorization 
+
+
+JWT -> 3 PARTS 
+
+HEADER 
+---------
+{
+    alg: 
+    type: jwt
+}
+
+
+PAYLOAD 
+-------
+contains what data we want to store 
+{
+    userid: 
+    username: "venkat", 
+    "role
+}
+
+
+SIGNATURE
+--------
+used to verify the token intergrity
+
+token is immutable ..taken will invalid if we modify 

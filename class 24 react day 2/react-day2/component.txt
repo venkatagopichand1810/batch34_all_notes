@@ -1,0 +1,3 @@
+components are the buidling block of the react application,
+
+in react, everything is the component

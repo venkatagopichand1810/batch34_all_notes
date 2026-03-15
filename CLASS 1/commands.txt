@@ -1,0 +1,28 @@
+git hub
+
+1) We have to create the github account using gmail
+2) we have to create the repo, Create a new repository give the repo name
+3) after creating the repo you will see a page with few commands
+
+
+now go to VS CODE..create the folder and add your files 
+
+1) git init -> it will init the git in our local
+2) git status -> red color..you are not added this files
+3) git add . -> this will add all the files 
+4) git status -> it will show all the files in green color, means you have added all the files
+5) git commit -> we have to provide the git commit message for commiting the code files which we have
+  (git commit -m "your commit message name")
+6) git status 
+7) git remote add origin https://github.com/venkatagopichand1810/batch_34_class1.git (when you wanted to push first time)
+8) git push 
+9) git push --set-upstream origin master (first time)
+
+
+2nd case ( alrady repo is there, and few of the codes already present in git repo)
+
+1) do the changes
+2) git status
+3)  git commit -> we have to provide the git commit message for commiting the code files which we have
+  (git commit -m "your commit message name")
+4) git push 

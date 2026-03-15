@@ -1,0 +1,23 @@
+<div id="dropdown" style="background-color: orange;">
+    <button>Men's Wear</button>
+
+    <div id="items" style="display: none;">
+        <p>Shirts</p>
+        <p>T - shirts</p>
+        <p>Geans</p>
+        <p>Trousers</p>
+    </div>
+</div>
+
+<script>
+    const dropdown = document.getElementById("dropdown");
+    const items = document.getElementById("items")
+
+    dropdown.addEventListener("mouseover", function () {
+        items.style.display = "block"
+    })
+
+    dropdown.addEventListener("mouseleave", function () {
+        items.style.display = "none"
+    })
+</script>

@@ -1,0 +1,2 @@
+create the database in mongodb......use databasenamec
+check the database...show dbs (it will list all your databases)

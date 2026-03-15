@@ -1,0 +1,28 @@
+<script>
+    
+// let cart = ["shoes", "belt"]; //original array
+
+// // create the new cart without changing original
+// let newCart = [...cart, "bag"]
+
+// console.log(cart);
+// console.log(newCart)
+
+// let name = "venkat";
+// // let letters = name.split("");
+// let letters = [...name]; ////spread operator is used to expand the elments into individual values 
+// console.log(letters)
+
+function add(...numbers) {
+    let total = 0; 
+    for(let num of numbers) {
+        total += num
+    }
+    return total
+
+}
+
+console.log(add(1, 2, 3, 4))
+console.log(add(1, 2, 3, 4, 50, 100, 1000, 101, 5000))
+
+</script>

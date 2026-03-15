@@ -1,0 +1,18 @@
+cascadding stylesheet
+.....stylesheet lang used to control the look and feel of the HTML document.
+
+fonts, colors, layouts, etc
+
+
+style property: value
+background-color: green;
+
+
+id selector:
+ID should be unqiue in the given page
+and we should use ID only once
+#
+
+class Selector: 
+class is used to style muliple elements  and it can be reused on muliple elements
+. 

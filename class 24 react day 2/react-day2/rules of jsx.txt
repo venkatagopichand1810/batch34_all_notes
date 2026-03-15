@@ -1,0 +1,19 @@
+1) if have single element we no need to add any enclosing tag
+2) if we have more than one element we must enclose with parent tag, must have one parent element
+
+3) while adding the class we have to use className instead of class 
+
+4) JSX attributes should be in camelCase and should be wrapped in curly brackets 
+
+
+
+<> use this <> fragment to avoid the unnecessary wrapper 
+
+
+so far 
+
+jsx and its rules 
+how to create the component and how import 
+how to write javascript way in react 
+how to apply differnt ways (styles)
+about fragments 

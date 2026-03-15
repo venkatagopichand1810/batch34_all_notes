@@ -1,0 +1,5 @@
+async and await to make javascript to write the async code in the simpler way
+
+"async" will return the promise
+
+"await" wait until the promise is complete

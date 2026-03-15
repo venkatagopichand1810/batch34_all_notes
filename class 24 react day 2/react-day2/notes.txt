@@ -1,0 +1,13 @@
+// in react js file is nothing but component, component nothing but a simple function
+
+
+
+// jsx => javascript XML..
+
+// in react we are going to write both html and javascirpt code in single file(js file), 
+// we dont have seperate html file
+
+// html + javascript = jsx
+
+
+if we are going to write html code it should be inside the return statement

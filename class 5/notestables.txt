@@ -1,0 +1,5 @@
+
+colspan: if we wanted to merge muliple columns 
+
+
+rowspan: if we wanted to merge muliple rows

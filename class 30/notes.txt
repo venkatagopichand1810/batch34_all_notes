@@ -1,0 +1,44 @@
+GET -> Read/fetch data
+--> used to get the data from the server
+--> we will not send any data 
+-=-
+
+
+
+POST -> Create New data
+--> used to send the data to the server
+--> create new resource
+--> POST Always has body, data is sent in json..creates new record
+
+PUT -> update the entire data
+--> update the full object
+--> replaces the old data completely 
+--> put will update the data only for the specific user(me)
+
+
+PATCH -> Update the partial data
+-> updates only specific fields 
+
+
+DELETE -> Remove the data 
+Delete data from the server
+
+
+
+
+
+axios vs fetch
+
+fetch...built in browser API
+when we do an api call we no need to have any aditional library 
+promise base
+response.json() (here required)
+
+
+
+Axios..
+Third party library
+npm install axios...axios is better
+response.json()  (not required)
+large enterprise apps we have to axios
+it fast and easy

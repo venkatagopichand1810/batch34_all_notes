@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Objective Quiz Game</title>
+        <meta name = "viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="quiz-container">
+            <h1>Object Quiz Game</h1>
+
+            <!-- for the game progress bar -->
+            <div class="progress-bar">
+                <div id = "progress" class="progress"></div>
+            </div>
+
+            <!-- timer -->
+             <div id = "timer" class="timer">15</div>
+
+             <!-- question container -->
+
+             <div class="question-container" id = "question-container">
+                <!-- question -->
+                 <div id = "question">Question</div>
+
+                <!-- answer button -->
+                 <div id = "answer-buttons" class="btn-container"></div>
+             </div>
+
+             <button id = "next-btn" class="btn next-btn">Next</button>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

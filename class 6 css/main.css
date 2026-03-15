@@ -1,0 +1,11 @@
+
+
+/* universal selector */
+ /* * {
+    color: skyblue;
+    font-size: 10px;
+ } */
+
+ h1 {
+   color: green !important;
+ }

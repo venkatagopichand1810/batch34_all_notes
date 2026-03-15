@@ -1,0 +1,21 @@
+HTML -> HYPERTEXT MARKUP LANGUAGE
+
+html to create the web pages
+
+
+HYPERTEXT: content..video,image, text, words, sentences, paragraphs
+
+MARKUP: tags which we are going to use the tags to add all above
+
+
+LANGUAGE: markup LANGUAGE which is used to diplay the content in the browser
+
+
+
+html4 html5
+
+doctype...to tell that we are using html5 document
+
+
+SEO -> SEARCH ENGINE OPTIMIZATION 
+GOOGLE RANKING ALGO

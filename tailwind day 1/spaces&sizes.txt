@@ -1,0 +1,90 @@
+box modal
+padding
+margin
+border
+
+
+---------------------
+
+
+margin
+------------------
+m-0  0
+m-1  0.25rem
+m-2 - 0.5rem 
+m-3 = 0.75rem 
+m-4 - 1rem
+m-5 1.25rem 
+m-6 1.5rem 
+m-64 16rem 
+
+direction-variats 
+========================
+mt
+mr 
+mb 
+ml 
+mx (horizontal)
+my (vertical)
+
+
+padding
+====================
+p-0 
+p-1
+p-2
+
+
+pt
+pb
+pr
+pl
+px
+py
+
+
+====================
+gap(flexbox and grid)
+
+gap-0 
+gap-1 
+gap-2
+gap-3 
+
+
+space between(space-x, space-y)
+=======================
+add the spacing b/w the child elements 
+
+
+
+
+
+-----------------------------------------------------------
+sizes
+
+1) width           2) height
+w-0 
+w-1 
+w-2
+w-4 
+w-8
+|
+|
+|
+w-96
+w-full 
+w-screen 
+w-auto 
+
+
+3) min and max width/height 
+min-w-0
+min-h-0
+
+
+max-w-xs => 24rem
+max-w-sm -> 28rem 
+max-w-xl -> 36rem
+max-w-5xl -> 64rem
+max-w-full -> 100%

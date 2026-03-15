@@ -1,0 +1,40 @@
+<!-- pseudo elements
+if we wanted to apply styles to specific parts of the element
+--><!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p::first-letter {
+                font-size: 90px;
+                color: green;
+            }
+            p::first-line {
+                color: red;
+            }
+            p::selection {
+                background: yellow;
+            }
+            /* input::placeholder {
+                color: red;
+            } */
+             ul li::marker{
+                color: orange
+             }
+        </style>
+
+    </head>
+    <body>
+        <p>
+            If we wanted to apply styles to specific parts of the element
+            if we wanted to apply styles to specific parts of the element
+        </p>
+
+        <input type = "text" placeholder="Enter your name">
+
+        <ul>
+            <li>LG</li>
+             <li>Oppo</li>
+             <li>Vivo</li>
+        </ul>
+    </body>
+</html>

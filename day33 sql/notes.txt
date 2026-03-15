@@ -1,0 +1,74 @@
+Database is the collection of the user data that can be easily accessed, managed and updated
+
+in general
+college... all the records of the students (database)
+
+
+MYSQL is the RDBMS (Relational Database management system) which is used to store, manage data using SQL
+
+MYSQL is the software that helps us to save the data in tables and get th edata using SQL Commands
+oracle is the software that helps us to save the data in tables and get the data SQL 
+
+dynamoDB
+mongodb
+postegre sql 
+
+
+
+
+javascript
+---------------------
+angular
+react
+extjs
+vue
+
+
+SQL
+-----------
+structured query language 
+
+
+DATBASE ------> stores the data
+MYSQL ------> Database software
+Tables -----> store data in rows and columns 
+SQL -> language to manage the data 
+
+
+
+mysql engines
+-------------------
+
+engines used to decide how data should be stored and retrieved
+
+
+
+----------------------------------------------------------------------------------
+
+***INNODB Engine*****
+-------------------------------
+Enterprise applications 
+E-commerce websites...
+
+
+**Memory Engine**....Super Fast 
+-----------------------------
+Temporary Data 
+session storage
+
+
+**CSV Engine***
+---------------------
+data Exchange
+simple imports 
+
+
+** Archive Engine ***
+----------------------
+Auditing
+
+
+
+
+
+

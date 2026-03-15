@@ -1,0 +1,13 @@
+
+
+forms
+
+controlled forms
+
+-> react controls the input field
+-> useState
+-> onchange event
+
+uncontrolled forms 
+-> values will be handled by the DOM itself
+-> useRef hook

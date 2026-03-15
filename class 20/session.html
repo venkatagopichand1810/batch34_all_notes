@@ -1,0 +1,26 @@
+
+<!-- visit count -->
+
+<body>
+    Visitors count: <h1 id = "count">0</h1>
+
+    <script>
+
+        // get the count the session stroage
+        let visitCount = sessionStorage.getItem("visits");
+
+        // if first time in tab -> set to 0
+        if (!visitCount){
+            visitCount = 0
+        }
+
+       visitCount = Number(visitCount) + 1
+       sessionStorage.setItem("visits", visitCount);
+
+       //show the result
+       document.getElementById("count").textContent = "Visits in this tab" + visitCount
+
+
+    </script>
+
+</body>

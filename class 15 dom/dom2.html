@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="password" placeholder="Enter your password" id = "venkat">
+        <button onclick="submitMe()">Submit</button>
+        <button onclick="togglePassword()">Show Password</button>
+
+        <script>
+            function submitMe() {
+                alert("incorrect password")
+            }
+
+            function togglePassword() {
+               const pwd =  document.getElementById("venkat");
+               console.log(pwd);
+
+               if(pwd.type === "password") {
+                pwd.type = "text";
+               } else {
+                pwd.type = "password"
+               }
+
+            }
+        </script>
+
+    </body>
+</html>

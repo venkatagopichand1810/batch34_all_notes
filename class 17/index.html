@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess the number</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><u>Guess the Number Game</u></h1>
+        <p>Guess the number b/w <b>1</b> and <b>100</b></p>
+
+        <input type="number" placeholder="Guess the number" id="guessInput" class="userGuess"/>
+
+        <!-- button to submit the guess -->
+        <button id="submitBtn">Submit Guess</button>
+
+        <!-- based upon the game, message will be shown here -->
+        <p id="message"></p>
+
+        <button id = "resetBtn">Reset Button</button>
+        <div>
+            <p><b>Attempts</b>: <span id = "attempts">0</span></p>
+            <p><b>Total Games</b>: <span id = "games">0</span></p>
+            <p><b>Total points</b>: <span id = "points">0</span></p>
+        </div>
+    </div>
+    <script src = "./main.js"></script>
+</body>
+</html>

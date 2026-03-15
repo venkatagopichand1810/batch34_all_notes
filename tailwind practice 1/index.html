@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+
+            font-family: "Monsieur La Doulaise", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- HEADER -->
+    <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="mx-auto flex justify-between items-center px-6 py-4">
+            <!-- logo -->
+            <h1 class="text-sm font-bold text-orange-600 md:text-xl">Travel Everywhere - <span>Guvi</span></h1>
+
+            <!-- nav links -->
+
+            <nav class="flex space-x-2 text-orange-500 font-medium md:space-x-6">
+                <a href="#" class="hover:text-orange-700">Home</a>
+                <a href="#" class="hover:text-orange-700">Destination</a>
+                <a href="#" class="hover:text-orange-700">Packages</a>
+                <a href="#" class="hover:text-orange-700">About</a>
+                <a href="#" class="hover:text-orange-700">Contact</a>
+                <a href="#" class="hover:text-orange-700">Footer</a>
+            </nav>
+
+            <!-- login & Register buttons-->
+            <div class="flex space-x-4">
+                <button class="bg-green-400 hover:bg-green-300 px-4 py-2 font-semibold rounded-lg">Login</button>
+                <button class="bg-blue-400 hover:bg-blue-300 px-4 py-2 font-semibold rounded-lg">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero section  -->
+    <section class="flex items-center justify-center text-center relative h-screen text-white">
+
+        <img src="https://images.unsplash.com/photo-1740658082394-57ecc773c0ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+            class="absolute w-full h-full object-cover opacity-90" />
+
+        <!-- overlay -->
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <!-- hero content -->
+        <div class="relative">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Guvi Travel - Discover the world!!!</h1>
+            <p class="text-lg md:text-xl mb-8 mx-auto">
+                Find your next adventure, explore your Destinations with us - GUVI TRAVEL
+            </p>
+            <button class="bg-blue-400 px-8 py-3 text-white rounded-lg font-semibold hover:bg-blue-500">
+                Explore Now
+            </button>
+        </div>
+    </section>
+
+    <!-- section - Top destinations -->
+
+    <section class="py-20 bg-gray-100">
+        <div class="px-6 text-center mx-auto">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Top Destinations</h2>
+            <p class="text-gray-600 mb-12">
+                Explore your Destinations with us - GUVI TRAVEL
+            </p>
+
+            <!-- destinations cards -->
+            <div class="grid grid-cols-1 sm-grid-cols-2 md:grid-cols-3 gap-10">
+                <div class="bg-white rounded-xl shadow-lg hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                        class="w-full" />
+
+                    <div class="py-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kerala, India</h3>
+                        <p class="text-gray-600">Discover the peace and love..Best place for the nature lovers</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                        class="w-full" />
+
+                    <div class="py-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kerala, India</h3>
+                        <p class="text-gray-600">Discover the peace and love..Best place for the nature lovers</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                        class="w-full" />
+
+                    <div class="py-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kerala, India</h3>
+                        <p class="text-gray-600">Discover the peace and love..Best place for the nature lovers</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                        class="w-full" />
+
+                    <div class="py-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kerala, India</h3>
+                        <p class="text-gray-600">Discover the peace and love..Best place for the nature lovers</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                        class="w-full" />
+
+                    <div class="py-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kerala, India</h3>
+                        <p class="text-gray-600">Discover the peace and love..Best place for the nature lovers</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                        class="w-full" />
+
+                    <div class="py-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kerala, India</h3>
+                        <p class="text-gray-600">Discover the peace and love..Best place for the nature lovers</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mx-auto px-6">
+            <!-- logo  -->
+            <div>
+                <h1 class="text-2xl font-bold mb-4">Travel Everywhere <span class="text-orange-500">Guvi</span></h1>
+                <p class="text-gray-400">
+                    Find your next adventure, explore your Destinations with us - GUVI TRAVEL
+                </p>
+            </div>
+
+            <!-- quick links -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4 underline">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-orange-400">Home</a></li>
+                    <li><a href="#" class="hover:text-orange-400">Destinations</a></li>
+                    <li><a href="#" class="hover:text-orange-400">Packages</a></li>
+                    <li><a href="#" class="hover:text-orange-400">About</a></li>
+                    <li><a href="#" class="hover:text-orange-400">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <!-- social media -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4 underline">Social Media</h3>
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-orange-400">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="hover:text-orange-400">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="hover:text-orange-400">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- subscription -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4 underline">Subscribe</h3>
+                <p class="text-gray-400 mb-4">Get the latest updates and offer details</p>
+                <form class="flex flex-col gap-3">
+                    <input type="email" placeholder="Enter your email" class="px-4 py-2 border">
+                    <button class="px-4 py-2 bg-blue-400 rounded-lg hover:bg-blue-500">Subscribe</button>
+                </form>
+
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="border-t text-center mt-4 pt-4">
+            &copy; 2025 Guvi All rights reserved
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

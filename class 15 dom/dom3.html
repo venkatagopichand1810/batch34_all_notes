@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+         <button onclick="create()">Click Me</button>>
+          <div id = "para"></div>
+
+          <!-- i wanted to add the image -->
+          <button onclick="addImage()">Add Image</button>
+          <div id = "imgShow"></div>
+         <script>
+            let countPara = 0; //init
+            function create() {
+                if(countPara === 5){
+                    alert("pradeep is added 5 times");
+                    return; //this will stop the execution
+                }
+                const createParagraph = document.createElement("p");
+                createParagraph.textContent = 'This is pradeep';
+                document.getElementById("para").appendChild(createParagraph);
+                countPara++;  //increment the count
+            }
+
+            function addImage() {
+                const img = document.createElement("img");
+                img.src = "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                document.getElementById("imgShow").appendChild(img)
+
+            }
+         </script>
+
+    </body>
+</html>
+
+
+
+<!-- if we wanted to create the element in javascript we have
+ 
+createElement()
+-->

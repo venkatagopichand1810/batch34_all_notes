@@ -1,0 +1,43 @@
+<input type="text" placeholder="Type your username" id="username" />
+<p>Live Prview: <span id="preview"></span></p>
+
+<script>
+    document.getElementById("username").addEventListener("input", function () {
+        document.getElementById("preview").textContent = this.value;
+    })
+</script>
+
+<form id="myform">
+    <input type="email" id="email" placeholder="Enter your email">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+   
+</form>
+ <p id="message"></p>
+
+<script>
+    document.getElementById("email").addEventListener("change", function () {
+
+        const msg = document.getElementById("message")
+
+        if (this.value.includes("@")) {
+            msg.textContent = "valid email"
+            msg.style.color = "green"
+        } else {
+            msg.textContent = "Invalid email"
+            msg.style.color = "red"
+        }
+    })
+
+    document.getElementById("email").addEventListener("focus", function () {
+        this.style.background = "gray"
+    })
+
+    document.getElementById("email").addEventListener("blur", function () {
+        this.style.background = "skyblue"
+    })
+
+        document.getElementById("myform").addEventListener("reset", function () {
+       document.getElementById("message").textContent = "Form has been reset!"
+    })
+</script>

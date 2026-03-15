@@ -1,0 +1,65 @@
+diff b/w let and const
+diff b.w var, let and const
+what is hositing in javascript give me example
+how var, let and const hoisted in javascript
+what is tdz 
+what are the diff types of scope in javascript
+what is diff b/w global scope, function scope, block scope and lexical scope
+diff b/w funciton scope and block scope
+can functions be hoisted?
+what is clousre and give an example 
+how do we declare array in javascript 
+how to access array elements
+what is diff b/w object and array in javascript
+what is map function used for 
+what is diff b/w filter and some
+diff b.w some and every method
+how sort method works in javascript
+diff b.w splice and slice method
+what is push pop shift and unshift methods 
+diff b.w find and filter
+what is for loop 
+what is for and foreach 
+what is for in and for of 
+how to create an object in javascript
+what are diff ways to iterate over the object in javascript
+diff b/w == and === 
+what is json 
+diff b/w object and json 
+how to convert object to json and json to object
+what is parse method 
+what is stringify method 
+what are funcitons in javascript
+diff kinds of funcitons in javascript
+diff b/w function declaration and function expression
+what is anonymous function 
+what is IIFE 
+can function expression be hoisted?
+what are the diff conditions in javascript
+what exactly happen in if, if else, else if else 
+is it possible to use ternary instead of if else
+diff b/w while and do while 
+give some examples 
+what is for loop in javascript
+explain the syntax for for loop 
+what is the syntax for switch statement 
+when we need to switch instead if 
+diff b/w deep copy and shallow copy 
+what is diff b/w copy by value and copy of ref
+what are diff data types in javascript
+diff b/w primitive and non-primitive data types 
+what is optional chaining operator in javascript
+what is ternary operator 
+why shoule we avoid using var in latest js
+can we re delcare varaible in let in the same scope 
+can we redeclare and reassign in const 
+how to change or moddify the values in const 
+what is the typeof null? 
+how to find the typeof given varaible
+what is reduce method
+write a program to find the second largest element in the given array 
+write a program to find the sum of elements in the given array using reduce and without reduce method 
+writa a program to count the char in the given string 
+write a progem to reverse the numbeers
+to remove the duplicates from the given array 
+

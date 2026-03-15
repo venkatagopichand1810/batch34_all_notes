@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <label>Username:</label>
+    <input type="text" placeholder="Enter the username" id="username" />
+
+    <p id="usererror" style="color: red"></p>
+    <button onclick="submit()">Submit</button>
+
+    <script>
+        function submit() {
+            const user = document.getElementById("username").value.trim(); 
+            const err = document.getElementById("usererror")
+
+            const misusingNames = ["buffalo", "donkey", "monkey", "test"];
+
+            // only allow letters (a-z or A-Z)
+            const regex = /^[A-Za-z]+$/;
+
+            if(!regex.test(user)) {
+                err.textContent = "special characters and numbers are not allowed";
+                return;
+            }
+
+            if(misusingNames.includes(user)) {
+                err.textContent = "please use proper name";
+                return;
+            }
+
+            if (user.length < 7 && !regex.test(user)) {
+                err.textContent = "Must be at least 7 characters and special char not allowed "
+            }
+
+            else if(user.length > 12) {
+                err.textContent = "Cannot be more than 12 characters"
+            }
+
+            else {
+                err.style.color = "green";
+                err.textContent = "Valid username"
+            }
+
+
+        }
+
+    </script>
+</body>
+
+</html>

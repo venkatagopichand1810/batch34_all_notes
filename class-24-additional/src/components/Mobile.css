@@ -1,0 +1,30 @@
+
+.mobile-card {
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(248, 178, 87);
+    transition: transform 0.1s ease;
+}
+
+
+.mobile-card:hover {
+ transform: translateY(-15px);
+}
+
+.mobile-image {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.mobile-brand {
+    margin: 20px;
+    color: chocolate;
+}
+
+.mobile-price {
+    font-size: 20px;
+    color: brown;
+    font-weight: bolder;
+}

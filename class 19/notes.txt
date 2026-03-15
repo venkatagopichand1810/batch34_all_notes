@@ -1,0 +1,14 @@
+error handling is used to manage the unexpected errors in javascript without crashing the application
+
+try
+
+-> block contains the code main logic(fine), incase if there any error
+
+catch 
+catch block will be executed if we have any error
+
+
+finally:
+block will always be exectued whether success or failure
+
+try: if code is fine then try block will be exectued 

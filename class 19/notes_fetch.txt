@@ -1,0 +1,3 @@
+fetch() is the inbuilt javascript function used to call the api from the browser
+
+(appplication programming interface)

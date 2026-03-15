@@ -1,0 +1,9 @@
+
+device type            width
+------------------------------------------------------------
+Extra small(mobile)    0px - 575px
+Small(large mobiles)   576px - 767px
+medium(Tablets)        768px to 991px
+Large(Laptops)         992px to 1199px 
+Extra Large(desktops)  1200px to 1399px
+extra extra large       >1400px

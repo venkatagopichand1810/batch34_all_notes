@@ -1,0 +1,15 @@
+node js is the runtime env that allows us to run the javascript code outside the browser
+
+
+JS + java 
+JS + PYTHON
+JS + .NET
+JS + RUBY RAILS
+JS + php 
+
+MERN 
+
+we can use node js as the backend to develop the API's
+
+
+Develop BE from.. package.json

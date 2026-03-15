@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <p id = "text">red500</p>
+
+        <!-- <script>
+            document.getElementById("text").addEventListener("copy", function() {
+                alert("copied the text")
+            })
+        </script> -->
+
+         <script>
+            document.getElementById("text").addEventListener("cut", function(e) {
+                e.preventDefault(); //stop the default behaviour of the copy
+                alert("cut is disabled")
+            })
+        </script>
+
+
+    </body>
+</html>
+
+<!-- it will stop the default behaviour 
+ 
+1) page loading -> we are stopping the page reload ...preventDefualt
+2) copy is used to copy -> stop the default behaviour of the copy
+
+
+-->

@@ -1,0 +1,12 @@
+
+padding
+margin
+border 
+box modal 
+chrome dev tools
+positions
+static
+relative
+abosolute
+fixed
+sticky

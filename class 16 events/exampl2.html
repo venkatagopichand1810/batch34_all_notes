@@ -1,0 +1,22 @@
+
+<h3>Product: Headphones</h3>
+
+<button id = "addCartBtn">Add to cart</button>
+
+<p>Cart Items: <span id = "cartCount">0</span></p>
+
+<script>
+    // cart count
+let count = 0;
+
+// query the elements
+const cartBtn = document.getElementById("addCartBtn");
+const cartCount = document.getElementById("cartCount")
+
+// click
+cartBtn.addEventListener("click", function() {
+    count++; //increase the count
+cartCount.textContent = count; //update the span 
+})
+
+</script>

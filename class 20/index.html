@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+<body>
+    <!-- login -->
+    <div id="loginBox">
+        <h3>Login</h3>
+        <input type="text" placeholder="Enter your username" id="username" />
+        <button id="loginBtn">Login</button>
+    </div>
+
+    <!-- after login welcome -->
+    <div id="welcomeBox">
+        <h3 id="welcomemsg"></h3>
+
+        <!-- logout button -->
+        <button id="logoutBtn">Logout</button>
+    </div>
+    <script>
+
+        const nameInput = document.getElementById("username");
+        const loginBtn = document.getElementById("loginBtn");
+        const logoutBtn = document.getElementById("logoutBtn");
+        const welcomemsg = document.getElementById("welcomemsg");
+        const loginbox = document.getElementById("loginBox");
+        const welcomeBox = document.getElementById("welcomeBox");
+        loginBtn.addEventListener("click", function () {
+            // read the input user typed
+            const userName = nameInput.value;
+            // save the name in the local storage
+            localStorage.setItem("loggedUser", userName);
+            showWelcome(userName)
+
+        })
+
+        logoutBtn.addEventListener("click", function () {
+
+            localStorage.removeItem("loggedUser");
+            loginBox.style.display = "block";
+            welcomeBox.style.display = "none";
+
+            nameInput.value = ""; //clear the input field
+
+        })
+
+        // welcome function 
+
+        function showWelcome(name) {
+            welcomemsg.textContent = "Welcome, " + name + "!";
+            loginBox.style.display = "none"
+            welcomeBox.style.display = "block"
+
+        }
+
+    </script>
+
+</body>
+
+</html>

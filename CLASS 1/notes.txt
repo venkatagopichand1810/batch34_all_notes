@@ -1,0 +1,15 @@
+
+what is FULL STACk web development?
+
+we can able to develop Frontend(client-side) and backend (server-side) along with database
+
+Frontend-> UI, design( html, css, javascript, react)
+backend -> bussiness logic, api, authenication, data handling
+database -> stored the user data and we are going to retrieve the user data
+
+
+an example
+
+Frontend -> product data, search bar, buttons, filters, 
+backend -> payment gatway, auth
+database -> user datails, product info, order info

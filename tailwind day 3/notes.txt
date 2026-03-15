@@ -1,0 +1,19 @@
+RWD -> responsive web designing
+
+CSS -> flexbox, grid, media, 100%, auto, rem, em
+
+RWD:  Our website will automatically adjusts its layout and design on all devices
+
+-> Desktops
+-> laptops
+-> tablets
+-> mobile phones
+
+we have some specific for the RWD
+
+prefix       min width   device
+sm           640px       small screens
+md           768px       tablets
+lg           1024        laptops
+xl           1280        Desktops
+2xl          1536        large Desktops

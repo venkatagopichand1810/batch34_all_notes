@@ -1,0 +1,5 @@
+new Promise (class)
+
+
+class 
+we have to create the object

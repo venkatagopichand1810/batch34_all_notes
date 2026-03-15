@@ -1,0 +1,5 @@
+BrowserRouter -> this is used to enable the routing to our application
+Routes -> container
+Route -> we are going to add individual routes
+Link -> link is used to link the pages 
+we have to import all this from react-router-dom

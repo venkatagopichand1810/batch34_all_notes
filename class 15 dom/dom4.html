@@ -1,0 +1,29 @@
+<!-- chat message -->
+ <!DOCTYPE html>
+ <html>
+    <head>
+
+    </head>
+
+    <body>
+
+        <div id = "chatBox" style="border: 1px solid gray; height: 200px; padding: 10px; overflow-y: auto;">
+
+        <input id = "chatInput" placeholder="Write the message" value="Hi here!"/>
+        <button onclick="sendMsg()">Send</button>
+
+        <script>
+            function sendMsg() {
+                const input = document.getElementById("chatInput"); //this is to select the input (line 10)
+
+                const text = input.value; //value inside the input field
+
+                const msg = document.createElement("p");
+                msg.textContent = text; //user input value is added to the paragraph tag
+
+                document.getElementById("chatBox").appendChild(msg);
+                input.value = ""; //clearing the input field
+            }
+        </script>
+    </body>
+ </html>

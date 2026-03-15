@@ -1,0 +1,19 @@
+node js is the server side env to run the javascript outside the browser
+express js is the framework built on top of the node js that helps us to create the servers and api very faster
+express is the third party package
+
+
+enterprise app
+
+only with node js
+--------------------
+hard routing 
+authetication and authorizaion not possible 
+too much complex code
+difficult to create the api's
+
+node  + express
+-------------------- 
+clean codede 
+authetication and authorizaion possible
+simple codebase

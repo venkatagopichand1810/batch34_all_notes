@@ -1,0 +1,6 @@
+scope -> where the variable is accessible in the code
+
+
+function scope -> inside the function only
+block scope -> inside { .....}
+global scope -> accessible everywhere

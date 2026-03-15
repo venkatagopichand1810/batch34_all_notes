@@ -1,0 +1,11 @@
+object is the collectio of key - value pairs
+
+key: we also called as properties(names)
+values can be anything: numbers, strings, arrays, functions or object
+
+
+let objectName = {
+    key1: value1,
+    key2: value2, 
+    key3: value3
+}

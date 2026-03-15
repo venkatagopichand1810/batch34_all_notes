@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <input type="password" id = "password" placeholder="Enter the password">
+        <button id = "btn">Show password</button>
+
+        <script>
+            const pass = document.getElementById("password");
+            const btn = document.getElementById("btn");
+
+            btn.addEventListener("click", function() {
+                if(pass.type === "password") {
+                    pass.type = "text";
+                    btn.textContent = "Hide password"
+                } else {
+                    pass.type = "password";
+                    btn.textContent = "Show password"
+                }
+            })
+            
+    
+            
+        </script>
+
+    </body>
+</html>

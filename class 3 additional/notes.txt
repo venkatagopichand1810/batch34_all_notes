@@ -1,0 +1,30 @@
+// for....in
+
+// loop over the keys of an object
+
+const mobile = {
+    name: "iphone",  //key: value
+    price: 75000,
+    inStock: true,
+
+}
+// console.log(mobile.name);
+// console.log(mobile.price);
+// console.log(mobile.inStock)
+
+//loop over the keys
+for(let key in mobile ) {
+    console.log(key, ":", mobile[key])
+}
+
+
+
+
+
+
+
+
+
+
+// for....of
+//loops over the values of arrays, strings...

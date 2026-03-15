@@ -1,0 +1,13 @@
+<form id = "feedbackForm">
+    <textarea id = "feedback" placeholder="Enter the feedback"></textarea>
+    <button type="submit">Submit</button>
+</form>
+<p id = "feedbackMsg"></p>
+
+<script>
+    document.getElementById("feedbackForm").addEventListener("submit", function(e){
+        //e.preventDefault(); // it is going to prevent default behaviour of the form (page refresh)
+       const fb =  document.getElementById("feedback").value;
+       document.getElementById("feedbackMsg").textContent = fb ? "Feedback submitted" :"Please write the feedback"
+    })
+</script>

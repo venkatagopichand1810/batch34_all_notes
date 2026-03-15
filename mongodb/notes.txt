@@ -1,0 +1,136 @@
+SQL - RDBMS
+-----------------
+Where we are going to store data in rows and columns(tables)
+joins
+subquries 
+
+
+mongodb
+----------------------------
+mongodb is nosql database and used to store the data in JSON (BSON)(Binary json)- like format instead of tables
+
+{
+    name: "venkat"
+}
+
+easy for developers
+------------------------
+mongodb Uses JSON format which is similar to javascript
+
+
+high performance
+-----------------------
+no joins
+flexible data 
+
+
+
+fast for large 
+---------------------
+big data
+real time apps
+
+social media 
+e-commernce 
+chat apps
+
+
+
+--------------------------------------------
+a document is a unit of data in mongodb(it is similar to row in mysql)
+
+{
+    name: "venkat",
+    city: "bangalore", 
+    state: "karantata",
+    country: "india"
+}
+
+
+
+-------------------------------------
+a collection is the group of documents (table in mysql)
+
+[
+    
+{
+    name: "venkat",
+    city: "bangalore", 
+    state: "karantata",
+    country: "india"
+},
+
+
+{
+    name: "siva",
+    city: "bangalore", 
+    state: "karantata",
+    country: "india"
+},
+
+
+{
+    name: "rama",
+    city: "bangalore", 
+    state: "karantata",
+    country: "india"
+}
+
+
+    
+]
+
+
+-----------------------------------
+mongodb data types
+
+1) string(used to store the text)
+{
+    name: "venkat"
+}
+
+
+2) number(integer & double)
+
+{
+    age: 25, 
+    price: 199.99
+}
+
+3) boolean(true or false)
+{
+    isActive: true
+}
+
+4) date(stores data and time)
+
+{
+    cratedAt: new Date()
+}
+
+5) Array(stores muliple values in one field)
+
+
+{
+    skills: ["HTML", "CSS", "javascript"]
+}
+
+6) Object (embedded document)
+stores the nested data 
+
+{
+    address: {
+        city: "bangalore",
+        pincode: 560036
+    }
+}
+7) null stoes empty values
+
+{
+    something: null
+}
+
+8) numberLong(binint)
+
+
+string/// "srivani123@gmail.com"

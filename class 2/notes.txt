@@ -1,0 +1,25 @@
+// javascript is dynamically typed language, variables don't have the fixed types.
+
+//in js variable can hold any data type
+
+// 1) Primitive data types(immutable, stored by value)
+// 2) non-primitive(reference) data types..(mutable, stored by reference)
+
+
+// primitive data types are immutable and they store single values
+
+// a) Number
+
+//represent integer or floating point Number
+//infinity
+//NaN (not a number)
+
+b) String
+
+represents text inside " " or ' '
+
+c) boolean
+
+d) undefined a variable declared but not assgined with any value...
+
+e) Null, absence of the value

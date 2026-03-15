@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <img id = "cauliflower" src="https://www.bbassets.com/media/uploads/p/m/10000074_21-fresho-cauliflower.jpg?tr=w-154,q-80" 
+        width="150"
+        style="cursor: pointer;"
+        />
+
+        <button id = "btn" style="padding: 20px;">Hold Me</button>
+
+        <script>
+            const img = document.getElementById("cauliflower");
+
+            img.addEventListener("dblclick", function() {
+                img.style.width = img.style.width === "150px" ? "300px" : "150px"
+            })
+
+            // mouse button pressed
+            btn.addEventListener("mousedown", function() {
+                btn.style.background = "orange"
+            })
+
+            // mouse button is released
+            btn.addEventListener("mouseup", function() {
+                btn.style.background = ""
+            })
+
+            // on mouse over
+            btn.addEventListener("mouseover", function() {
+                btn.style.background = "blue"
+            })
+
+            btn.addEventListener("mouseout", function() {
+                btn.style.background = "green"
+            })
+
+
+        </script>
+    </body>
+</html>
+

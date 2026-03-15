@@ -1,0 +1,30 @@
+<style>
+    .dark {
+        background-color: black;
+        color: white;
+    }
+</style>
+<h2>Dark/light mode</h2>
+<button id="themeBtn">Select Theme</button>
+<script>
+
+    const themeBtn = document.getElementById("themeBtn");
+
+    themeBtn.addEventListener("click", function() {
+        // if body has class "dark", remove it
+        if(document.body.classList.contains("dark")){
+            document.body.classList.remove("dark");
+            localStorage.setItem("venkatTHeme", "light")
+        } else {
+            document.body.classList.add("dark")
+              localStorage.setItem("venkatTHeme", "dark")
+        }
+    })
+
+    // // getItem
+     const savedTheme = localStorage.getItem("venkatTHeme")
+     if(savedTheme === "dark"){
+        document.body.classList.add("dark")
+     }
+
+</script>

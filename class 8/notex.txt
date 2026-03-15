@@ -1,0 +1,40 @@
+flex-direction
+--------------------------------
+
+row -> left to right
+row-reverse - right to left
+column - top to bottom
+column-reverse - bottom to top
+
+
+
+flex-wrap
+----------------------------
+it is going to control the elements and it wrap, adjust as per the screen width and height
+wrap
+nowrap
+wrap-reverse
+
+
+flex-flow
+------------------------------
+shortand notation for flex-direction and flex-wrap
+
+
+justify-content
+-----------------------
+align flex items horizontally 
+
+
+align-items
+--------------------
+align flex items vertically
+
+
+order
+-------
+order is used to change the order of the flex items
+
+
+flexbox is the layout
+positions relative, fixed, sticky....layouts

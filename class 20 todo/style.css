@@ -1,0 +1,57 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    background-color: bisque;
+}
+
+.container {
+    background-color: rgb(134, 214, 214);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+}
+
+#taskInput {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 4px;
+}
+
+/* buttons */
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#addBtn {
+    background-color: green;
+    color: white;
+}
+
+#updateBtn {
+    background-color: orange;
+    color: white;
+    display: none; 
+    /* i wanted to show only when the edit is clicked */
+}
+
+.editBtn {
+    background-color: green;
+    color: white;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+}
+
+.actions button{
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+}

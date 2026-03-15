@@ -1,0 +1,46 @@
+
+
+.container {
+    background-color: rgb(236, 135, 124);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userGuess {
+    padding: 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+button {
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+}
+
+#resetBtn {
+    background-color: brown;
+    color: white;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+#resetBtn:hover {
+    background-color: rgb(233, 112, 112);
+    color: white;
+}
+
+#message {
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: rgb(220, 97, 2);
+    background-color: black;
+    border: 3px double black;
+    padding: 5px;
+}

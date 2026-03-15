@@ -1,0 +1,10 @@
+React is the FE JS library used to build the Single page applications.
+React updated the content automatically based on the user interaction
+
+React users Virtual DOM concept 
+react is 5 to 10 times faster then angular and other lib and frameworks
+
+node JS -> is the application which is used to create FE and BE 
+
+along with node js, we are getting npm (node pacakge manager)
+

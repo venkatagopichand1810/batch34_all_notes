@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .tailwindcssclass {
+            background-color: orange;
+            font-size: 55px;
+        }
+        .welcomeClass {
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+</head>
+<body id = "bodyID">
+    <h1 id = "welcome">Welcome back to javascript concepts</h1>
+    <button onclick="changeMe()">Click</button>
+
+    <script>
+        function changeMe() {
+            const welcome = document.getElementByzc("welcome");
+            const bodyID = document.getElementById("bodyID")
+            welcome.textContent = "hellooooooooooooooooooooooooooooooo";
+            // welcome.style.color = "green"
+            // welcome.style.backgroundColor = "black"
+            // welcome.style.padding = "40px"
+            // welcome.style.borderRadius = "50%";
+            welcome.classList.toggle("welcomeClass")
+            // below code is used to add the classes either css classes or tailwindclass
+            bodyID.classList.toggle("tailwindcssclass")
+        }
+    </script>
+</body>
+</html>
+
+<!-- document.getElementbyid -->
+
+<!-- 
+how to add the id, apply styles 
+
+-->

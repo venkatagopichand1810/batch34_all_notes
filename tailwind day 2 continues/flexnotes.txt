@@ -1,0 +1,40 @@
+Tailwind class Name:         in css(style)
+--------------------        -------------
+flex-row                     flex-direction: row
+
+flex-row-reverse             flex-direction: row-reverse
+
+flex-col                     flex-direction: column
+
+flex-col-reverse             flex-direction: column-reverse
+
+justify-start
+
+justify-center
+
+justify-end 
+
+justify-between
+
+justify-around
+
+justify-evenly
+
+------------------------------
+vertical alignment
+
+items-start
+
+items-center
+
+items-end 
+
+
+===========================
+flex-wrap
+
+flex-nowrap
+
+flex-wrap
+
+flex-wrap-reverse

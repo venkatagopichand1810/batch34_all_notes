@@ -1,0 +1,120 @@
+<!-- form is used to collect the users data -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form>
+        <label for="name">Username:</label>
+        <input type="text" placeholder="Enter your Name" id="name" name="username" value="Venkata gopichand">
+        <br><br>
+
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="Enter your password" id="pwd" name="password">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email" name="email">
+
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" placeholder="Enter your Age" id="age" name="age" min="18" max="50">
+
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <label for="appointment">Appointment Time:</label>
+        <input type="time" id="appointment" name="appointment">
+
+        <br><br>
+
+        <label for="appointment">Appointment Date and time:</label>
+        <input type="datetime-local" id="appointment" name="appointment">
+
+        <br><br>
+
+        <label for="appointment">Appointment Month:</label>
+        <input type="month" id="appointment" name="appointment">
+
+
+        <br><br>
+
+        <label for="appointment">Appointment Week:</label>
+        <input type="week" id="appointment" name="appointment">
+
+        <br><br>
+
+        <label for="color">Choose your color</label>
+        <input type="color" id="color" name="color">
+
+        <br><br>
+
+        <label for="price">Price Range</label>
+        <input type="range" id="price" name="price">
+
+        <br><br>
+        <label for="photo">Select your DP</label>
+        <input type="file" id="photo" name="photo">
+
+        <br><br>
+
+        Male: <input type="radio" name="gender" value="male">
+        Female: <input type="radio" name="gender" value="female">
+        TransGender: <input type="radio" name="gender" value="transgender">
+
+        <br><br>
+        Choose your Hobbies:
+        
+        Cricket: <input type="checkbox" name="cricket" value="cricket">
+        Singing: <input type="checkbox" name="Singing" value="Singing">
+        Dancing: <input type="checkbox" name="Dancing" value="Dancing">
+
+
+        <br><br>
+        <label for="price">Choose your Price:</label>
+        <select id="price" name="price">
+            <option value="">Select your price</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+        </select>
+        <br><br>
+
+        <label for="fashion">Choose your dress</label>
+        <input type="text" id="fashion" name="fashion" list="fashions" placeholder="Type or select">
+        <datalist id="fashions">
+            <option value="mens wear">
+            <option value="womens wear">
+            <option value="Kids wear">
+            <option value="mobiles">
+            <option value="Ac">
+        </datalist>
+        <br><br>
+
+        Enter your message
+        <textarea rows="10" cols="40">
+
+        </textarea>
+        <button>Submit</button>
+
+
+
+    </form>
+
+    <!-- http://127.0.0.1:5500/forms.html? -->
+    <!-- http://127.0.0.1:5500/forms.html?username=venkat -->
+
+    <!-- DOM -> doucment.getElementbyID -->
+
+</body>
+
+
+</html>

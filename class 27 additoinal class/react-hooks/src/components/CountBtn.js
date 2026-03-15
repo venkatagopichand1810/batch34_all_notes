@@ -1,0 +1,22 @@
+import { memo } from "react"
+
+function CountBtn({handleCount}) {
+
+       console.log("3. Countbtn")
+
+       return (
+        <>
+        <button onClick={handleCount}>
+            Increment Count
+        </button>
+        
+        </>
+       )
+
+}
+
+export default memo(CountBtn)
+
+
+// memo will stop unnecessary component rerender 
+// memo will load only the components which have the props and changing the props 

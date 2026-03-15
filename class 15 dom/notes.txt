@@ -1,0 +1,23 @@
+DOM -> document object model is the true structure created by the browser
+
+DOM is the tree, each html element is the node 
+
+-> use the javascript and JS uses the dom to select, read, update, add or remove th elements 
+
+
+ DOM is going manipulate the following things
+ ---------------------------------------------------------------
+
+ select the html elements
+ change the text
+ add the styles 
+ we can remove the stylesz
+ create new elements 
+ we can remove elements 
+ we can listen the listen
+
+ byid
+ byclass
+ bytag
+ queryselector -> id, class, tag ->it will select only first element\
+ queryselectorall -> it is going to select all the element forloop

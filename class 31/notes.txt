@@ -1,0 +1,12 @@
+useContext in built react hook used to create the centrailzed store to avoid the prop drilling
+
+-useContext
+-----Create the global state
+----- access the state from any component, without passing props manually
+
+useContext....
+
+1) createContext() -> create the context 
+2) Context.provider -> to provide the data 
+3) useContext(context) -> consume data
+4) wrap the provider to index.js
