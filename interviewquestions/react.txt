@@ -1,0 +1,117 @@
+what is react 
+what is vm model 
+why react? why not other framework or libraries 
+what is diff b/w react and angular 
+is react is the libray or framework
+what is the virtual dom in react 
+what are the main features of react 
+diff b/w real dom and virtual dom 
+diff to setup of react project 
+what is cra
+what is vite
+diff cra vs vite 
+explain the folder structure of the react
+what happen when i run npm start or npm run dev, how reacts loads the component 
+can we add javascript code in react
+what is JSX and rules of JSX 
+what is fragments in react 
+how to add internal and exernal styles in react 
+how to use tailwindcss in react 
+what is component 
+how to add diff components in react 
+what is props in react 
+is props is uni directional or two way 
+is props are mutable or immutable 
+what is the state in react, what is state management 
+how to create the component in react 
+what is functional component 
+what is class component 
+diff b/w stateless and statefull components in react 
+what is render method in class component 
+what are the advantages of react
+is browser going to understand jsx? what is babel 
+how to pass the data from parent to child component 
+how to pass the data from child to parent component 
+what is the composition in props 
+what is callback in props 
+diff ways of receiving props in react 
+what is destructruing props in react 
+what is hook in ract 
+is state is immutable or mutable 
+how to maintain the state of the application in react 
+how to create reusable components in react 
+what is useEffect, how to import useEffect 
+can you explain the syntax of useState and useEffect 
+diff b/w props and state 
+what is children props in react 
+how to loop arrays in react and display in the jsx 
+what is key prop and how to use
+how to create higher order component in react 
+what is side effects in react
+what is useEffect 
+how to call the api and fetch the data using useEffect 
+how to clear the component using useEffect 
+what is dependency in useEffect 
+if i use Empty dependency what will happen
+can we have multiple dependencies in useEffect 
+what is memo 
+useMemo 
+useCallback 
+useRef 
+farwordRef 
+what is useReducer 
+what is contextApi
+what is prop drilling in react 
+what are the disadvantages of prop drilling in rect 
+what are life cycle hooks of class components 
+how to set the state in class component
+what are controlled components 
+what are the uncontrolled components 
+what are higher order components in react 
+how to handle the red screen in react 
+what is error boundary in react 
+what is useContext and createContext
+how to provide the store to the entire application
+what is componentDidMount, componentDidUpdate componentWillUnmount()
+what are the diff ways to apply styles in css 
+how to create custom hook in react 
+what is diff b/w module.css and normal css in react 
+diff usestate, useReducer, useContext and redux
+explain how to create the context in react 
+what are the diff states of useReducer in react 
+what is conditional rendering react
+how to implement conditional rendering in react 
+how do we handle the forms in react 
+how do we handle form valiations in react 
+how to render list of elements in react 
+what is lazy loading in react 
+how to implement lazy loading in react 
+what is pure component
+how do we prevent re rendering in react 
+what is react router 
+how to implement routing react 
+what is browserRouter 
+what is link, routes, and route 
+what is hasRouter 
+what is diff b/w browserRouter vs hasRouter 
+what is wildcard routing 
+how to show page not found page if routing is not present 
+what is link, navlink, redirect in react 
+what is useparams in react routing 
+what is useNavigation, useLocation 
+how to implement nested routing in react 
+what is outlet 
+diff ways to manage the state in react 
+how to maintian the complex state in react 
+diff react redux and useContext api 
+what are the diff stages of react redux 
+what are portals in react 
+how to do an api call in react using fetch 
+how to do an api call in react using axios 
+diff axios vs fetch 
+what are diff http methods
+what is unit testing 
+how to add unit testing in react
+how to deploy react application 
+what is npm run build 
+diff b/w lib and framework

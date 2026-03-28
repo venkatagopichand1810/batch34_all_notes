@@ -1,0 +1,175 @@
+what is javascript 
+when i run js what will happen behind the screens
+what is v8 engine 
+what are the main advantages of javascript 
+diff ways to include the javascript in html 
+defer and sync in javascript import 
+what are the data types in javascript 
+typeof null
+typeof object 
+what are primitive types 
+what are non primitive or referenece data types 
+diff copy by value and copy by reference 
+dif b/w deep copy vs shallow copy 
+what are variables in javascipt 
+what is diff var,let and const 
+diff let and const 
+can we use var in moderen js
+what are the different scopes in js
+diff b.w global and local scope 
+what is lexical scope 
+what is closure 
+diff b/w set and map
+diff b/w weakmap and weakset 
+what is the use of preventDefault 
+what is event bubbling 
+what is event porgration and event delegation 
+how to declare variables in js 
+is it possible to run js outside of the browser 
+how to stop the default behaviour of the form submission 
+what typeof 
+what is instanceOf
+what is == and ===
+how create functions in javascript
+differnet functions in js
+how to declare the function 
+what is function expression
+what is named function 
+what is anonymous function 
+what recursive function 
+what is IIFE 
+what is clousre function 
+what is inheritance 
+wht is prototype in javascript 
+what is object 
+how to access object properties 
+how to add functions in object 
+what is "this" in normal function 
+what is arrow function 
+what is "this" in arrow function 
+how to store user data in the browser and where to store
+what is local storage 
+what is session storage 
+what is cookie 
+diff b/w local vs session vs cookie 
+what is hoisting 
+what are the latest es6 features 
+what is setTimeout 
+what is setTimeInterval 
+what is syncronous 
+what is asynchronous 
+waht is diff sync vs async 
+what is callback give example 
+what is callback hell 
+what is promise 
+what is promise chanining 
+what is async await 
+what is fetch 
+differet promise methods
+what are the advantages of asyc await over promises 
+what are the advantages of promise chaining over callback hell 
+how to do an api call using fetch in js
+how to do an api call using axios 
+what are the different http methods 
+name few http status codes 
+how to pass the default parameters in functions
+explain about template literals in js 
+what are the different operators in js
+what is optional chaining operator
+what is nullish coleashing operator
+what is spread operator and how it solves the existing problem 
+what is rest operator and how it solves the existing problem 
+diff b/w arugments and rest operator 
+what is diff promise.any, promise.race, promise.all and promise.allsettled 
+how to do multiple api calls in js 
+what are conditons in js 
+what is if, if else, else if 
+what is switch
+diff if ans switch 
+what is while and do while and exp in detail 
+how to execute the code muliple types in js
+what is for loop 
+what is foreach 
+what is for....in 
+what is for....of 
+how to declare array and object in js
+how to access array values and object values 
+what is ternary operator 
+what are diff methods of array
+what are the diff methods of object
+what are the diff methods of math
+what are the diff methods of string 
+how to convert js object to json 
+how to convert json to js object 
+what is json.stringify 
+what is json.parse 
+diff b/w some and every method in js
+what is reduce method 
+diff splice, slice 
+expalin about the compare function in sort in js 
+what is JSON 
+how to iterate array of elements
+how to iterate array of objects 
+what is toString
+how to convert number to string and viceversa 
+what is call, apply and bind 
+what are setters and getters in javascript 
+how to clone the object without modifiying the original object 
+how to clone the array without modifying the original array 
+what is event loop 
+what is stack, queue, microtask, macrotask, webapi in javascript engine 
+how do we debounce a funtion in javascript 
+what is throttle and how do we throttle function in javascript 
+what is destructuring 
+what is array destructuring 
+what is object destructuring..what is the advantages of destructuring
+diff between normal function vs arrow function 
+diff b/w constructor function vs normal function 
+what is object.keys,object.create, object.assign, object.values 
+how to implement exeception handling in js 
+what is try, catch, throw and finally 
+hwo to throw custom errors in js 
+how to hanlde errors in js 
+what are the js events 
+diff js events 
+diff ways to add the events in js 
+what is diff b.w adding inline event vs addEventListener 
+what is DOM, explain in detail 
+how to add style, remove style
+how to ad class, remove class, toggle class in dom
+how to create the new element in js using dom 
+diff b/w append and appendchild
+what is querySelector
+what is querySelectorAll
+what is documnet.getElementById(), document.getElementByClassname() and tagname 
+what is BOM 
+what is super key in javascript 
+how to debug js, how to check the api call in js and where to check 
+what is regex 
+what is pure function and impure function 
+what is super key in js 
+what are modules
+how to import and export 
+what are mouse events 
+keyboard events 
+window events 
+touch events 
+what is window object 
+what is client and server communication 
+what is reduce 
+
+how to find the 3rd largest number 
+how to find the 2nd largest number 
+how to remove the duplicates from the given array 
+to find the sum of the numbers
+count the char in the given string 
+how to reverse the string without using any predefined methods 
+how to find the palindrome, primenumber, fiboncci series, even number, odd numbers 
+to print the differnt patters
+given two arrays, combine both the arrays and remove the duplicates and sort it
+******
+**********
+***************
+******************
+
+
